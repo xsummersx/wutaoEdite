@@ -1,0 +1,10 @@
+1.下载git。
+2.创建一个本地的git仓库 git init
+3.本地仓库存到缓存区，git add
+4.上传到本地仓库 git commit
+5.上传到github。首先注册github帐号
+6.创建Github项目
+7.创建本地的私钥匙和公钥。$ ssh-keygen -t rsa -C "youremail@example.com"
+  验证是否成功$ ssh -T git@github.com
+8.连接远程git的用户名和邮箱xsummers,605369747@qq.com
+9.上传到远程的github。
