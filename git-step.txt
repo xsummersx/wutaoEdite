@@ -8,3 +8,19 @@
   验证是否成功$ ssh -T git@github.com
 8.连接远程git的用户名和邮箱xsummers,605369747@qq.com
 9.上传到远程的github。
+
+
+远程连接github注意事项
+1.创建好github仓库后就是与git仓库的关联了，此时打开刚才那个命令框，执行
+$ git remote add origin https://github.com/cnjy/test.git
+
+
+2.?不过此时会有一个坑，如果我们在创建github仓库是勾选了Initialize this repository with a README（就是创建仓库的时候自动给你创建一个README文件），此时我们就需要执行接下来的一步
+$ git pull --rebase origin master
+
+3.关联好之后就是讲文件push到github上了 
+如果github仓库的文件夹时空的执行
+$ git push -u origin master
+
+4.?等远程仓库里面有了内容之后，下次再从本地库上传内容的时候只需下面这样就可以了
+$ git push origin master
