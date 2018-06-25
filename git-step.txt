@@ -1,28 +1,35 @@
-1.ÏÂÔØgit¡£
-2.´´½¨Ò»¸ö±¾µØµÄgit²Ö¿â git init
-3.±¾µØ²Ö¿â´æµ½»º´æÇø£¬git add
-4.ÉÏ´«µ½±¾µØ²Ö¿â git commit
-5.ÉÏ´«µ½github¡£Ê×ÏÈ×¢²ágithubÕÊºÅ
-6.´´½¨GithubÏîÄ¿
-7.´´½¨±¾µØµÄË½Ô¿³×ºÍ¹«Ô¿¡£$ ssh-keygen -t rsa -C "youremail@example.com"
-  ÑéÖ¤ÊÇ·ñ³É¹¦$ ssh -T git@github.com
-8.Á¬½ÓÔ¶³ÌgitµÄÓÃ»§ÃûºÍÓÊÏäxsummers,605369747@qq.com
+1.ä¸‹è½½gitã€‚
+2.åˆ›å»ºä¸€ä¸ªæœ¬åœ°çš„gitä»“åº“ git init
+3.æœ¬åœ°ä»“åº“å­˜åˆ°ç¼“å­˜åŒºï¼Œgit add
+4.ä¸Šä¼ åˆ°æœ¬åœ°ä»“åº“ git commit
+5.ä¸Šä¼ åˆ°githubã€‚é¦–å…ˆæ³¨å†Œgithubå¸å·
+6.åˆ›å»ºGithubé¡¹ç›®
+7.åˆ›å»ºæœ¬åœ°çš„ç§é’¥åŒ™å’Œå…¬é’¥ã€‚$ ssh-keygen -t rsa -C "youremail@example.com"
+  éªŒè¯æ˜¯å¦æˆåŠŸ$ ssh -T git@github.com
+8.è¿æ¥è¿œç¨‹gitçš„ç”¨æˆ·åå’Œé‚®ç®±xsummers,605369747@qq.com
   Git config --global user.name
   Git config --global user.email
-9.ÉÏ´«µ½Ô¶³ÌµÄgithub¡£
+9.ä¸Šä¼ åˆ°è¿œç¨‹çš„githubã€‚
 
 
-Ô¶³ÌÁ¬½Ógithub×¢ÒâÊÂÏî
-1.´´½¨ºÃgithub²Ö¿âºó¾ÍÊÇÓëgit²Ö¿âµÄ¹ØÁªÁË£¬´ËÊ±´ò¿ª¸Õ²ÅÄÇ¸öÃüÁî¿ò£¬Ö´ĞĞ
+è¿œç¨‹è¿æ¥githubæ³¨æ„äº‹é¡¹
+1.åˆ›å»ºå¥½githubä»“åº“åå°±æ˜¯ä¸gitä»“åº“çš„å…³è”äº†ï¼Œæ­¤æ—¶æ‰“å¼€åˆšæ‰é‚£ä¸ªå‘½ä»¤æ¡†ï¼Œæ‰§è¡Œ
 $ git remote add origin https://github.com/cnjy/test.git
 
 
-2.?²»¹ı´ËÊ±»áÓĞÒ»¸ö¿Ó£¬Èç¹ûÎÒÃÇÔÚ´´½¨github²Ö¿âÊÇ¹´Ñ¡ÁËInitialize this repository with a README£¨¾ÍÊÇ´´½¨²Ö¿âµÄÊ±ºò×Ô¶¯¸øÄã´´½¨Ò»¸öREADMEÎÄ¼ş£©£¬´ËÊ±ÎÒÃÇ¾ÍĞèÒªÖ´ĞĞ½ÓÏÂÀ´µÄÒ»²½
+2.?ä¸è¿‡æ­¤æ—¶ä¼šæœ‰ä¸€ä¸ªå‘ï¼Œå¦‚æœæˆ‘ä»¬åœ¨åˆ›å»ºgithubä»“åº“æ˜¯å‹¾é€‰äº†Initialize this repository with a READMEï¼ˆå°±æ˜¯åˆ›å»ºä»“åº“çš„æ—¶å€™è‡ªåŠ¨ç»™ä½ åˆ›å»ºä¸€ä¸ªREADMEæ–‡ä»¶ï¼‰ï¼Œæ­¤æ—¶æˆ‘ä»¬å°±éœ€è¦æ‰§è¡Œæ¥ä¸‹æ¥çš„ä¸€æ­¥
 $ git pull --rebase origin master
 
-3.¹ØÁªºÃÖ®ºó¾ÍÊÇ½²ÎÄ¼şpushµ½githubÉÏÁË 
-Èç¹ûgithub²Ö¿âµÄÎÄ¼ş¼ĞÊ±¿ÕµÄÖ´ĞĞ
+3.å…³è”å¥½ä¹‹åå°±æ˜¯è®²æ–‡ä»¶pushåˆ°githubä¸Šäº† 
+å¦‚æœgithubä»“åº“çš„æ–‡ä»¶å¤¹æ—¶ç©ºçš„æ‰§è¡Œ
 $ git push -u origin master
 
-4.?µÈÔ¶³Ì²Ö¿âÀïÃæÓĞÁËÄÚÈİÖ®ºó£¬ÏÂ´ÎÔÙ´Ó±¾µØ¿âÉÏ´«ÄÚÈİµÄÊ±ºòÖ»ĞèÏÂÃæÕâÑù¾Í¿ÉÒÔÁË
+4.?ç­‰è¿œç¨‹ä»“åº“é‡Œé¢æœ‰äº†å†…å®¹ä¹‹åï¼Œä¸‹æ¬¡å†ä»æœ¬åœ°åº“ä¸Šä¼ å†…å®¹çš„æ—¶å€™åªéœ€ä¸‹é¢è¿™æ ·å°±å¯ä»¥äº†
 $ git push origin master
+
+5æ›´æ”¹githubè¿œç¨‹åœ°å€
+  ä¿®æ”¹å‘½ä»¤
+  git remote origin set-url [url]
+  å…ˆåˆ ååŠ 
+  git remote rm origin
+  git remote add origin [url]
