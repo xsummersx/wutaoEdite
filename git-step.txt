@@ -1,5 +1,5 @@
-1.下载git。
-2.创建一个本地的git仓库 git init
+﻿1.下载git。
+2.创建一个本地的git仓库 git init。
 3.本地仓库存到缓存区，git add
 4.上传到本地仓库 git commit
 5.上传到github。首先注册github帐号
